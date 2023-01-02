@@ -1,0 +1,192 @@
+.main__content{
+    display: flex;
+    // align-items: center;
+    // margin-top: 24px;  
+    flex-direction: column;
+                //   переделать переменные ,подключить шрыфты ПРАВИЛЬНО
+        .content__horizontal-decor-line{
+            @media (min-width: 1120px) {
+                display: none;
+            }
+        }
+
+        .content__title{
+            display: flex;
+            align-items: center;
+            margin-top: 24px;
+            @media (min-width: 1120px) {
+                justify-content: space-between;
+                
+            }
+
+            .title__title-header{
+                // align-items: center;
+                display: flex;
+                .title-header__text{
+                    width: 288px;
+                    font-family:  TTLakes-Bold; //переделать на переменные
+                    font-size: 28px;
+                    line-height: 40px;
+                    letter-spacing: -0.6px;  //переделать на переменные
+                    color: #1B1C21;
+                    margin: 0px 0px 0px 12px;
+                    @media (min-width: 1120px) {
+                        margin-left: 30px;
+                    }
+                }
+            }
+            
+            .title__title-hidden-buttons{
+            display: none;  //медиа запрос при фулскрине
+            @media (min-width: 1120px) {
+                display: flex;
+                justify-content: space-between;
+                width: 376px;
+                margin-right: 32px;
+            }
+
+            .title-hidden-buttons__btn-repair ,
+            .title-hidden-buttons__btn-checkstatus {
+                align-items: center;
+                width: 173px ;
+            }
+
+            .title-hidden-buttons__btn-repair::before {
+                content: "Оставить заявку";
+                margin-right: 8px;
+                white-space: nowrap;
+                width: 125px;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.2px;
+                font-family: TT Lakes-Medium;
+                color: #1B1C21;
+            }
+
+            .title-hidden-buttons__btn-checkstatus::before {
+                content: "Статус ремонта";
+                margin-right: 9px;
+                white-space: nowrap;
+                width: 125px;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.2px;
+                font-family: TT Lakes-Medium;
+                color: #1B1C21;
+            }
+            }
+        }
+
+        .content__slide-menu{
+            display: flex;
+            white-space: nowrap;    
+            overflow-y: hidden;
+            margin: 24px 16px 24px 16px;
+            @media (min-width: 1120px) {
+                flex-wrap: wrap;
+                overflow-y: auto;
+                margin: 6px 16px 24px 33px;
+            }
+
+            &::-webkit-scrollbar{
+                display: none;
+            }
+
+                .slide-menu__btn{
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: -0.2px;
+                    font-family: TTLakes;
+                    color: #7E7E82;
+                    text-decoration: none;
+                    padding: 8px 9.3px 8px 16.54px;
+                    margin: 0px 19.56px 0px 0px;
+                    border: 2px solid transparent;
+                    border-radius: 6px;
+                    @media (min-width: 769px){
+                        margin-right: 14px;
+                    }
+
+                    &:hover{
+                        border-color: #B8FFEC;
+                        background-color: #FFFFFF;
+                    }
+                }
+        }
+
+        .content__information{
+            flex-direction: column;  //добавить медиа
+            @media (min-width: 769px){
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-right: 25px;
+                margin-left: 24px;
+            }
+            @media (min-width: 1120px) {
+                margin-right: 33px;
+                margin-left: 33px;
+            }
+
+            .information__left-side{
+                flex-direction: column;
+                // @media (min-width: 769px) {
+                //     width: 312px;
+                // }
+
+                .left-side__info-text{
+                    margin: 0px 0px 24px 0px;
+                    padding: 0px 16px 0px 16px;
+                    font-size: 14px;
+                    line-height: 18px;
+                    letter-spacing: 0.2px;
+                    font-family: TTLakes;
+                    color: #1B1C21;
+                    @media (min-width: 769px) {
+                        padding: 0;
+                    }
+                    @media (min-width: 1120px) {
+                        margin-right: 36px;
+                    }
+                }
+    
+                .left-side__read-more-conteiner{
+                    display: flex;
+                    align-items: center;
+                    margin: 0px 0px 24px 24px;
+                    @media (min-width: 769px) {
+                        margin-left: 9px;
+                    }
+                                  //поправить иконку!! 
+                    .read-more-conteiner__btn-read-more{
+                        font-family: TTLakes-Bold;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: -0.2px;
+                        color: #1B1C21;
+                        background-color: transparent;
+                        border: none;
+                        padding: 0px;
+                        margin-left: 16px;
+                    }
+                }
+            }
+
+            .information__right-side{
+                @media (min-width: 769px) {
+                    min-width: 360px;
+                    // height: 208px;
+                }
+                @media (min-width: 1120px) {
+                    min-width: 531px;
+                }
+                    .right-side__img{
+                        width: 100%;
+                        height: auto;
+                        @media (min-width: 769px) {
+                            border-radius: 6px;
+                        }
+                    }
+            }
+        }
+}

@@ -10,7 +10,77 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-    <img src="./img/webpack.svg" alt="Webpack Logo" width="200px" />
-    <h3>Welcome to Webpack 4 starter </h3>
+    <div class="page">
+      <header class="page__header">
+        <div class="header__left-side">
+          <button class="left-side__burger-btn component_round-btn"><img src="../src/img/btn/burger.svg" alt="burger"></button>
+          <div class="left-side__decor-line component_vertical-decor-line"></div>
+          <div class="left-side__logo-CPS">
+            <img src="../src/img/group/Group.svg" alt="LogoCPS" width="96.55" height="50.81px">
+          </div>
+        </div>
+        <nav class="header__nav">
+          <div class="nav__conteiner-hidden-buttons">
+              <button class="conteiner-hidden-buttons__btn-call component_round-btn"><img src="../src/img/btn/call.svg" alt="call"></button>
+              <button class="conteiner-hidden-buttons__btn-chat component_round-btn"><img src="../src/img/btn/chat.svg" alt="chat"></button>
+              <button class="conteiner-hidden-buttons__btn-checkstatus component_round-btn"><img src="../src/img/btn/checkstatus.svg" alt="profile"></button>
+          </div>
+          <div class="nav__decor-line component_vertical-decor-line"></div>
+          <button class="left-side__burger-btn component_round-btn"><img src="../src/img/btn/repair.svg" alt="burger"></button>
+          <button class="left-side__burger-btn component_round-btn"><img src="../src/img/btn/checkstatus.svg" alt="burger"></button>
+        </nav>
+      </header>
+      <main class="page__main">
+        <section class="main__content">
+          <div class="content__horizontal-decor-line component_horizontal-decor-line"></div>
+          <div class="content__title">
+            <div class="title__title-header">
+              <div class="title-header__decor-line component_highlight-decor-line"></div>
+              <h1 class="title-header__text">Услуги и сервисы</h1>
+            </div>
+            <div class="title__title-hidden-buttons">
+              <button class="title-hidden-buttons__btn-repair component_round-btn"><img src="../src/img/btn/repair.svg" alt="repair"></button>
+              <button class="title-hidden-buttons__btn-checkstatus component_round-btn"><img src="../src/img/btn/checkstatus.svg" alt="checkstatus"></button>
+            </div>
+          </div>
+          <div class="content__slide-menu">
+            <button class="slide-menu__btn">Ремонтируемые бренды</button>
+            <button class="slide-menu__btn">Дополнительные услуги</button>
+            <button class="slide-menu__btn">Ремонтируемые устройства</button>
+            <button class="slide-menu__btn">Цены на услуги</button>
+            <button class="slide-menu__btn">Адреса сервисных центров</button>
+            <button class="slide-menu__btn">Специальные цены</button>
+            <button class="slide-menu__btn">Отзывы</button>
+          </div>
+          <div class="content__information">
+            <div class="information__left-side">
+              <p class="left-side__info-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Ut esse nulla nihil nesciunt corporis soluta 
+                assumenda rerum distinctio dolores eveniet, 
+                voluptatem illum delectus quia debitis itaque excepturi 
+                autem, earum eaque?
+              </p>
+              <p class="left-side__info-text">Lorem ipsum dolor sit amet consectetur adipisicing 
+                elit. Numquam nesciunt reiciendis iure alias mollitia,
+                eius, beatae aliquam sapiente aspernatur facere fugit 
+                ullam nemo. Veritatis eveniet accusantium mollitia atque 
+                consequatur labore?</p>
+              <div class="left-side__read-more-conteiner">
+                <img class="read-more-conteiner__expand-ico" src="../src/img/read-more-ico/icon.svg" alt="expand">
+                <button class="read-more-conteiner__btn-read-more">Читать далее</button>
+              </div>
+            </div>
+            <div class="information__right-side">
+              <img class="right-side__img" src="../src/img/group/MG_3223.png" alt="CSP-logo" width="320px"  height="auto" >
+            </div>
+          </div>
+        </section>
+        <section class="main__brand-list">
+          
+        </section>
+      </main>
+    </div>
+    <script src="./masterFlomaster/src/scss/page/_page__header.js"></script>
   </body>
 </html>

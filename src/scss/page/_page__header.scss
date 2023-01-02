@@ -1,0 +1,71 @@
+@import '../scss/base/variables.scss';
+
+// Блок хедер
+.page__header{
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    background-color: $colorWhite;
+    @media (min-width: 769px){
+        padding: 24px;
+    }
+    @media (min-width: 1120px) {
+        display: none;
+    }
+
+        .header__left-side {
+            width: 172.1px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            @media (min-width: 769px){
+                width: 179.28px;
+            }
+
+                .left-side__decor-line {
+                    order: 1;
+
+                    @media (min-width: 769px){
+                        order: 0;
+                    }
+                } 
+        }
+
+        .header__nav {
+            width: 96px;
+            display: flex;
+            justify-content: space-between;
+
+            @media (min-width: 769px){
+                width: 290px;
+            }
+
+            .nav__conteiner-hidden-buttons {
+                display: none;
+                
+                @media (min-width: 769px){
+                    width: 152px;
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+            
+            .nav__decor-line {
+                display: none;
+
+                @media (min-width: 769px){
+                    display: flex;
+                    margin: 0px 4px;
+                }
+            }
+
+        }
+}
+
+
+
+

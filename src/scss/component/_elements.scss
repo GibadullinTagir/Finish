@@ -1,0 +1,20 @@
+.component_vertical-decor-line {
+    width: 2px;
+    height: 32px;
+    border-radius: 1px;
+    background-color: #EAEAEA;
+}
+
+.component_horizontal-decor-line{
+    height: 1px;
+    background-color: #D9FFF5;
+    // margin-bottom: 24px;
+}
+
+.component_highlight-decor-line{
+    width: 4px;
+    height: 40px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #41F6D7;
+}

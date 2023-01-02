@@ -1,17 +1,18 @@
-$bgColor: #24292e;
-$text: #fff;
+@import '../scss/page/_page__header.scss';
+@import '../scss/page/main/main__content';
+@import '../scss/component/buttons.scss';
+@import '../scss/component/elements.scss';
+@import '../scss/base/null-style.scss';
+@import '../scss/base/fonts.scss';
 
-@font-face {
-  font-family: 'Comic';
-  src: url('../fonts/comic.ttf') format('truetype');
-  font-weight: normal;
-  font-style: italic;
-}
+$bgColor: #F8F8F8; //#24292e ;
+$text: #fff;
+$colorWhite: #ffffff;
+
+
 
 body {
-  padding: 1rem;
-  margin: 0;
-  font-family: Comic, sans-serif;
   background-color: $bgColor;
   color: $text;
 }
+

@@ -695,34 +695,32 @@ button.swiper-pagination-bullet {
           display: flex;
           margin: 0px 4px; } }
 
-.page__footer {
-  color: black; }
-  .page__footer .footer__commercial-information {
-    font-family: TTLakes-Regular;
-    font-size: 14px;
-    line-height: 16px;
-    color: #7E7E82;
-    opacity: 0.72;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: space-between; }
-    @media (min-width: 768px) {
-      .page__footer .footer__commercial-information {
-        flex-direction: row; } }
-    @media (min-width: 768px) {
-      .page__footer .footer__commercial-information .commercial-information__author {
-        width: 33%;
-        text-align: start; } }
-    @media (min-width: 768px) {
-      .page__footer .footer__commercial-information .commercial-information__confidentiality {
-        white-space: nowrap;
-        width: 33%; } }
-    @media (min-width: 768px) {
-      .page__footer .footer__commercial-information .commercial-information__public-offer {
-        width: 33%;
-        text-align: end; } }
+.page__footer .footer__commercial-information {
+  font-family: TTLakes-Regular;
+  font-size: 14px;
+  line-height: 16px;
+  color: #7e7e82;
+  opacity: 0.72;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between; }
+  @media (min-width: 768px) {
+    .page__footer .footer__commercial-information {
+      flex-direction: row; } }
+  @media (min-width: 768px) {
+    .page__footer .footer__commercial-information .commercial-information__author {
+      width: 33%;
+      text-align: start; } }
+  @media (min-width: 768px) {
+    .page__footer .footer__commercial-information .commercial-information__confidentiality {
+      white-space: nowrap;
+      width: 33%; } }
+  @media (min-width: 768px) {
+    .page__footer .footer__commercial-information .commercial-information__public-offer {
+      width: 33%;
+      text-align: end; } }
 
 .main__content {
   display: flex;
@@ -745,7 +743,6 @@ button.swiper-pagination-bullet {
         font-size: 28px;
         line-height: 40px;
         letter-spacing: -0.6px;
-        color: #1B1C21;
         margin: 0px 0px 0px 12px; }
         @media (min-width: 1440px) {
           .main__content .content__title .title__title-header .title-header__text {
@@ -763,25 +760,23 @@ button.swiper-pagination-bullet {
         align-items: center;
         width: 173px; }
       .main__content .content__title .title__title-hidden-buttons .title-hidden-buttons__btn-repair::before {
-        content: "Оставить заявку";
+        content: 'Оставить заявку';
         margin-right: 8px;
         white-space: nowrap;
         width: 125px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
-        font-family: TTLakes-Medium;
-        color: #1B1C21; }
+        font-family: TTLakes-Medium; }
       .main__content .content__title .title__title-hidden-buttons .title-hidden-buttons__btn-checkstatus::before {
-        content: "Статус ремонта";
+        content: 'Статус ремонта';
         margin-right: 9px;
         white-space: nowrap;
         width: 125px;
         font-size: 16px;
         line-height: 24px;
         letter-spacing: -0.2px;
-        font-family: TTLakes-Medium;
-        color: #1B1C21; }
+        font-family: TTLakes-Medium; }
   .main__content .content__slide-menu {
     display: flex;
     white-space: nowrap;
@@ -805,8 +800,8 @@ button.swiper-pagination-bullet {
         .main__content .content__slide-menu .slide-menu__btn {
           margin-right: 14px; } }
       .main__content .content__slide-menu .slide-menu__btn:hover {
-        border-color: #B8FFEC;
-        background-color: #FFFFFF; }
+        border-color: #b8ffec;
+        background-color: #ffffff; }
   .main__content .content__information {
     flex-direction: column; }
     @media (min-width: 769px) {
@@ -828,8 +823,7 @@ button.swiper-pagination-bullet {
         font-family: TTLakes-Medium;
         font-size: 14px;
         line-height: 20px;
-        letter-spacing: 0.2px;
-        color: #1B1C21; }
+        letter-spacing: 0.2px; }
         @media (min-width: 769px) {
           .main__content .content__information .information__left-side .left-side__info-text {
             padding: 0; } }
@@ -902,6 +896,9 @@ button.swiper-pagination-bullet {
     justify-content: center;
     margin-top: 15px; } }
 
+.main__brand-list .brand-list__conteiner .conteiner__catalog-brand .catalog__brand.hidden {
+  display: none; }
+
 .main__brand-list .brand-list__conteiner-btn-show-more {
   display: flex;
   align-items: center;
@@ -913,10 +910,13 @@ button.swiper-pagination-bullet {
     .main__brand-list .brand-list__conteiner-btn-show-more {
       display: none; } }
 
+.main__brand-list .btn-show-more__expand-ico.revers {
+  transform: rotate(180deg); }
+
 @media (max-width: 767px) {
   .pagination-brand {
     top: 95px;
-    --swiper-theme-color: #B5B6BC;
+    --swiper-theme-color: #b5b6bc;
     --swiper-pagination-bullet-inactive-color: #dddddd;
     --swiper-pagination-bullet-inactive-opacity: 1; } }
 
@@ -961,6 +961,9 @@ button.swiper-pagination-bullet {
     justify-content: center;
     margin-top: 15px; } }
 
+.main__repair-technics .repair-technics_container .conteiner__catalog-repair-technics .catalog-repair-technics__item.hidden {
+  display: none; }
+
 .main__repair-technics .repair-technics_container .conteiner__catalog-repair-technics .repair__btn {
   margin-top: 104px;
   margin-right: 16px; }
@@ -968,7 +971,7 @@ button.swiper-pagination-bullet {
 @media (max-width: 767px) {
   .main__repair-technics .pagination-repair-technics {
     top: 185px;
-    --swiper-theme-color: #B5B6BC;
+    --swiper-theme-color: #b5b6bc;
     --swiper-pagination-bullet-inactive-color: #dddddd;
     --swiper-pagination-bullet-inactive-opacity: 1; } }
 
@@ -986,13 +989,15 @@ button.swiper-pagination-bullet {
   @media (max-width: 768px) {
     .repair-technics_container__repair-conteiner-btn-show-more {
       display: none; } }
+  .repair-technics_container__repair-conteiner-btn-show-more .repair-btn-show-more__expand-ico.revers {
+    transition: transform 15.3 ease 0s;
+    transform: rotate(180deg); }
 
 .main__price {
   font-family: 'TT Lakes';
   font-size: 14px;
   line-height: 18px;
-  letter-spacing: 0.2px;
-  color: #1B1C21; }
+  letter-spacing: 0.2px; }
   .main__price .price__horizontal-decor-line {
     margin-top: 24px; }
     @media (min-width: 768px) {
@@ -1040,7 +1045,7 @@ button.swiper-pagination-bullet {
         .main__price .price__container .container__price-catalog .price-catalog__item .item__price-info {
           height: 200px;
           border-radius: 6px;
-          background-color: #fff;
+          background-color: #ffffff;
           box-sizing: border-box;
           padding: 16px;
           display: flex;
@@ -1077,7 +1082,7 @@ button.swiper-pagination-bullet {
     .main__price .price__commercial_offer .commercial_offer_informatiion {
       max-width: 421px; }
     .main__price .price__commercial_offer .commercial_offer__link {
-      color: #1B1C21;
+      color: #1b1c21;
       font-weight: bold;
       font-size: 16px;
       line-height: 24px;
@@ -1089,7 +1094,7 @@ button.swiper-pagination-bullet {
 
 .pagination-price {
   top: 225px;
-  --swiper-theme-color: #B5B6BC;
+  --swiper-theme-color: #b5b6bc;
   --swiper-pagination-bullet-inactive-color: #dddddd;
   --swiper-pagination-bullet-inactive-opacity: 1; }
   @media (min-width: 768px) {
@@ -1124,7 +1129,7 @@ button.swiper-pagination-bullet {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  color: #1B1C21;
+  color: #1b1c21;
   background-color: transparent;
   border: none;
   padding: 0px;
@@ -1134,18 +1139,18 @@ button.swiper-pagination-bullet {
   width: 2px;
   height: 32px;
   border-radius: 1px;
-  background-color: #EAEAEA; }
+  background-color: #eaeaea; }
 
 .component_horizontal-decor-line {
   height: 1px;
-  background: #D9FFF5; }
+  background: #d9fff5; }
 
 .component_highlight-decor-line {
   width: 4px;
   height: 40px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: #41F6D7; }
+  background-color: #41f6d7; }
 
 .component_list_item {
   box-sizing: border-box;
@@ -1155,18 +1160,18 @@ button.swiper-pagination-bullet {
   align-items: center;
   width: 240px;
   height: 72px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border-radius: 6px;
-  border: 1px solid #EAEAEA; }
+  border: 1px solid #eaeaea; }
 
 .component_list_item-repair-technics {
   width: 240px;
   height: 160px;
   display: flex;
   justify-content: space-between;
-  border: 1px solid #EAEAEA;
+  border: 1px solid #eaeaea;
   border-radius: 6px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-sizing: border-box; }
 
 .component_text-repair-technics {
@@ -1175,7 +1180,7 @@ button.swiper-pagination-bullet {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  color: #1B1C21;
+  color: #1b1c21;
   margin: 16px; }
 
 .component_gray-heaad-text {
@@ -1190,14 +1195,10 @@ button.swiper-pagination-bullet {
     .component_gray-heaad-text {
       display: none; } }
 
-body {
-  margin: 0;
-  padding: 0; }
-
 .main__brand-list .brand-list__head-repair-brand, .main__repair-technics .repair-technics__head-repair-technics, .main__price .price__head-price {
   display: flex;
   height: 80px;
-  background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
+  background: linear-gradient(90deg, #f8f8f8 0%, #ffffff 98.61%);
   vertical-align: middle;
   box-sizing: border-box;
   align-items: center; }
@@ -1212,7 +1213,7 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  color: #7E7E82; }
+  color: #7e7e82; }
 
 .page__footer .footer__commercial-information, .main__content .content__slide-menu, .main__price .price__commercial_offer, .main__brand-list .brand-list__head-repair-brand, .main__repair-technics .repair-technics__head-repair-technics, .main__price .price__head-price {
   padding-left: 16px;
@@ -1249,14 +1250,13 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  color: #1B1C21;
   font-family: TTLakes-Regular;
   margin: 0;
   padding: 0;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  box-shadow: 16px 0px 52px 0px #0E185033; }
+  box-shadow: 16px 0px 52px 0px #0e185033; }
   @media (max-width: 767px) {
     .interactive__left-menu {
       position: fixed;
@@ -1282,6 +1282,8 @@ body {
       position: sticky;
       top: 0;
       box-shadow: none; } }
+  .interactive__left-menu.active {
+    left: 0; }
   .interactive__left-menu .left-menu__header-menu {
     margin: 24px;
     display: flex;
@@ -1307,18 +1309,18 @@ body {
       margin-bottom: 16px; }
       .interactive__left-menu .left-menu__navigation .navigation__conteiner-link .conteiner-link__link {
         text-decoration: none;
-        color: #1B1C21; }
+        color: #1b1c21; }
       .interactive__left-menu .left-menu__navigation .navigation__conteiner-link .conteiner-link__decor-line {
         border-top-right-radius: 6px;
         border-bottom-right-radius: 6px;
         width: 4px;
         height: 32px;
-        background-color: #41F6D7;
+        background-color: #41f6d7;
         order: -1;
         margin-right: 24px;
         opacity: 0; }
       .interactive__left-menu .left-menu__navigation .navigation__conteiner-link .conteiner-link__link:hover {
-        color: #7E7E82; }
+        color: #7e7e82; }
       .interactive__left-menu .left-menu__navigation .navigation__conteiner-link .conteiner-link__link:hover + .conteiner-link__decor-line {
         opacity: 1; }
   .interactive__left-menu .left-menu__footer-navigation {
@@ -1333,11 +1335,11 @@ body {
       .interactive__left-menu .left-menu__footer-navigation .footer-navigation__footer-navigation-menu .footer-navigation-menu {
         margin-bottom: 16px; }
     .interactive__left-menu .left-menu__footer-navigation .footer-navigation__mail {
-      color: #1B1C21;
+      color: #1b1c21;
       text-decoration: none;
       margin-bottom: 12px; }
     .interactive__left-menu .left-menu__footer-navigation .footer-navigation__phone {
-      color: #1B1C21;
+      color: #1b1c21;
       font-weight: 24px;
       line-height: 32px;
       letter-spacing: -0.6 px;
@@ -1364,17 +1366,21 @@ body {
       cursor: pointer;
       scale: 1.1; }
 
+@media (min-width: 1440px) {
+  .interactive {
+    display: flex;
+    order: -1; } }
+
 .interactive__feedback {
   font-family: 'TT Lakes';
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  color: #1B1C21;
   font-family: TTLakes-Regular;
   margin: 0px;
   padding: 0px 16px;
   box-sizing: border-box;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -1394,6 +1400,8 @@ body {
     .interactive__feedback {
       width: 440px;
       right: -100%; } }
+  .interactive__feedback.active-feedback {
+    right: 0; }
   .interactive__feedback .feedback__btn-back {
     margin-top: 30px; }
     @media (min-width: 1440px) {
@@ -1423,8 +1431,8 @@ body {
         height: 48px;
         width: 100%;
         margin-bottom: 16px;
-        background: #FFFFFF;
-        border: 1px solid #EAEAEA;
+        background: #ffffff;
+        border: 1px solid #eaeaea;
         border-radius: 8px;
         padding-left: 16px; }
         .interactive__feedback .feedback__form .form__entry-field > input::-webkit-input-placeholder {
@@ -1463,12 +1471,12 @@ body {
         .interactive__feedback .feedback__form .form__entry-field .entry-field__massage::placeholder {
           transform: translateY(-38px); }
   .interactive__feedback .feedback__submit-form .submit-form__info {
-    color: #7E7E82;
+    color: #7e7e82;
     font-size: 14px;
     line-height: 16px; }
     .interactive__feedback .feedback__submit-form .submit-form__info > a {
       text-decoration: none;
-      color: #FF3E79; }
+      color: #ff3e79; }
   .interactive__feedback .feedback__submit-form .submit-form__btn {
     padding: 0px;
     background: none;
@@ -1481,12 +1489,11 @@ body {
   font-size: 16px;
   line-height: 24px;
   letter-spacing: -0.2px;
-  color: #1B1C21;
   font-family: TTLakes-Regular;
   margin: 0px;
   padding: 0px 16px;
   box-sizing: border-box;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -1536,8 +1543,8 @@ body {
     .interactive__order-a-call .order-a-call__form .form-order-a-call__phone {
       height: 48px;
       margin-bottom: 16px;
-      background: #FFFFFF;
-      border: 1px solid #EAEAEA;
+      background: #ffffff;
+      border: 1px solid #eaeaea;
       border-radius: 8px;
       padding-left: 16px; }
       .interactive__order-a-call .order-a-call__form .form-order-a-call__phone::-webkit-input-placeholder {
@@ -1565,12 +1572,12 @@ body {
         line-height: 24px;
         letter-spacing: -0.2px; }
     .interactive__order-a-call .order-a-call__form .form-order-a-call__info {
-      color: #7E7E82;
+      color: #7e7e82;
       font-size: 14px;
       line-height: 16px; }
       .interactive__order-a-call .order-a-call__form .form-order-a-call__info > a {
         text-decoration: none;
-        color: #FF3E79; }
+        color: #ff3e79; }
     .interactive__order-a-call .order-a-call__form .form-order-a-call__btn {
       padding: 0px;
       background: none;
@@ -1579,36 +1586,23 @@ body {
       margin-left: auto; }
 
 body {
-  background-color: #F8F8F8; }
+  margin: 0;
+  padding: 0;
+  background-color: #F8F8F8;
+  color: #1b1c21; }
   @media (min-width: 1440px) {
     body {
       display: flex; } }
-
-@media (min-width: 1440px) {
-  .interactive {
-    display: flex;
-    order: -1; } }
+  body button {
+    cursor: pointer; }
 
 .page {
   transition: opacity 1s; }
-
-.active {
-  left: 0; }
-
-.inviz {
-  opacity: 0.09; }
+  .page.inviz {
+    opacity: 0.09; }
 
 .scroll-off {
   overflow: hidden; }
-
-.active-feedback {
-  right: 0; }
-
-.hiden {
-  display: none; }
-
-.revers {
-  transform: rotate(180deg); }
 
 
 /*# sourceMappingURL=style.css.map*/
